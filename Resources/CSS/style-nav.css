@@ -189,9 +189,6 @@ h3 {
     }
 }
 /* pictures */
-.portfolio {
-    margin-top: 4rem;
-}
 .gallery {
     width: 50%;
     height: auto;
@@ -241,26 +238,32 @@ table {
     flex-direction: row;
     justify-content: center;
     margin-inline: auto;
+    background-color: black;
+}
+.portfolio {
+    margin-top: 4rem;
+    color: rgb(228, 225, 225);
+    font-size: 4rem;
 }
 .work-pics {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
     flex-grow: 3;
-    flex-basis: auto;
+    /* flex-basis: auto; */
 }
 .gallery-wide {
     width: 100%;
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
     flex-grow: 5;
 }
 .gallery-portfolio {
     width: 20%;
     height: auto;
-    border-radius: 5%;
-    margin: 2rem;    
+    /* border-radius: 5%; */
+    margin: 0.5rem;    
     box-shadow: rgba(0, 0, 0, 0.65) 0px 5px 15px;
 }
 .gallery-portfolio:hover {
